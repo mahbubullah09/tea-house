@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Work+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+    body{
+        font-family: 'Manrope', sans-serif;
+        background-color: #FFF;
+    }
+</style>
+
 </head>
-<body>
+
+
+<body class="max-w-5xl mx-auto">
+    <!-- banner section ? -->
+    <div class="banner flex items-center my-10">
+
+        <div class="left flex-1">
+            <h2 class="text-[#1C1C1C] font-bold text-6xl">It's good <br>tea time at The Tea House</h2>
+            <p class="text-[#777] text-base w-96 my-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <button class="flex justify-around items-center gap-2 bg-gradient-to-r from-[#F00] from-0%  to-[#FF8938] to-100% py-3 px-4 rounded  ">Explore More  <img src="./images/arrow.png" alt=""></button>
+
+        </div>
+
+        <div class="right flex-1 relative">
+            <img src="./images/banner.png" alt="">
+            <div class="absolute bottom-2 left-8 shadow-md rating flex justify-center items-center gap-3 bg-white w-56 text-center py-4 rounded-md">
+                <img src="./images/Group 5.jpg" alt="">
+
+                <div class="right  ">
+                    <h4 class= " text-[#1C1C1C] font-bold text-2xl">5.00</h4>
+                    <p class="text-[#777] text-base">Trust Pilot Ratings</p>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
     
 </body>
 </html>
